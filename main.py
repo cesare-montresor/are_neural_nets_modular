@@ -172,7 +172,7 @@ def load_weights(helper: framework.helpers.TrainingHelper, task: tasks.Task):
 
 
 def main():
-    helper = framework.helpers.TrainingHelper(wandb_project_name="modules",
+    helper = framework.helpers.TrainingHelper(wandb_project_name="are_nn_mod",
                                                    register_args=register_args, extra_dirs=["export", "model_weights"])
 
     def invalid_task_error(self):
